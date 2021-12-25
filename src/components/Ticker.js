@@ -15,7 +15,7 @@ function Ticker() {
   return (
     <div>
       <h1>TickerMaster</h1>
-      <h2 style={{ color: color }}>Price: ${price}</h2>
+      <h2 style={{ color: color }}>Price: $ {price}</h2>
     </div>
   );
 }
